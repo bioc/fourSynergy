@@ -23,6 +23,7 @@
 #' sia <- consensusIa(ia = sia, model = "AUPRC")
 #' @export
 consensusIa <- function(ia, model = "F1") {
+    message('Starting ensemble algorithm...\n')
     dummy.gr <- makeGRangesFromDataFrame(
         data.frame(
             seqnames = paste0("chr1"),
