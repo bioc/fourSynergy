@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-# library(fourSynergy)
+library(fourSynergy)
 
 test_check("fourSynergy")

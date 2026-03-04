@@ -1,3 +1,6 @@
+0.99.9
+- update weights
+
 0.99.8
 - implement getters and setters
 
@@ -22,6 +25,6 @@
 - remove Rproj
 
 0.99.1
-- Add plotBaseTracks and plotConsenusTracks for high resolution coverage plots
+- Add plotBaseTracks and plotConsensusTracks for high resolution coverage plots
 - Add plotting params to karyoplot based visualizations
 - Add single condition mode

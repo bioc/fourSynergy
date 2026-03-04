@@ -15,9 +15,9 @@ setGeneric("differentialAnalysis", function(ia, fitType = "local") {
     standardGeneric("differentialAnalysis")
 })
 
-setGeneric("plotConsenusIa", function(ia = GRangesList(), genes_of_interest =
+setGeneric("plotConsensusIa", function(ia = GRangesList(), genes_of_interest =
                                         NULL) {
-    standardGeneric("plotConsenusIa")
+    standardGeneric("plotConsensusIa")
 })
 
 setGeneric("plotIaIndiviualTools", function(ia = GRangesList(),

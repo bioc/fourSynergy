@@ -85,7 +85,7 @@ package on testdata.**
 
 Before starting the R analysis you have to run the fourSynergy snakemake
 pipeline, which is available at
-(<https://github.com/sophiewind/fourSynergy>\_pipeline) and can be
+(<https://github.com/sophiewind/fourSynergy>\_pip) and can be
 executed using:
 
 ```{bash snakemake, eval=FALSE}
