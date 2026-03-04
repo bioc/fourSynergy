@@ -151,7 +151,7 @@ However, in a real-world scenario, `res_path` would typically be located
 in `./results/[DatasetName]` and the `tracks` in
 `./results/[DatasetName]/alignment`.
 
-```{r, eval=TRUE}
+```{r data, eval=TRUE}
 # Load config
 config <- system.file("extdata", "Datasets", "Demo", "info.yaml",
     package = "fourSynergy"
