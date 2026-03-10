@@ -1,3 +1,6 @@
+0.99.12
+- Add extdata description
+
 0.99.11
 - Update pipeline link in vignette
 
@@ -18,7 +21,6 @@
 
 0.99.5
 - plot_genes corrections
-
 
 0.99.4
 - plot_genes corrections

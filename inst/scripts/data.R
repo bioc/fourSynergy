@@ -1,16 +1,18 @@
 # Documentation how inst/extdata was generated
+
 # Weightings -------------------------------------------------------------------
+
 ## weighting_auprc.csv ---------------------------------------------------------
 #' Weights for the weighted voting approach implemented into the fourSynergy
-#' framework. The weights are calculated using gradient-free optimization to
+#' framework.  The weights are calculated using gradient-free optimization to
 #' optimize AUPRC (A detailed description of the method can be found in the
-#' accompanying publication.).
+#' accompanying publication).
 
 ## weighting_f1.csv ------------------------------------------------------------
 #' Weights for the weighted voting approach implemented into the fourSynergy
-#' framework. The weights are calculated using gradient-free optimization to
+#' framework.  The weights are calculated using gradient-free optimization to
 #' optimize F1 score (A detailed description of the method can be found in the
-#' accompanying publication.).
+#' accompanying publication).
 
 # Testdata ---------------------------------------------------------------------
 #' Testdata was generated from this public 4C-seq dataset: GSE197013
@@ -20,12 +22,11 @@
 #' TGFβ-dependent transcription activation.                                    #
 #' Nat Commun 13, 3263 (2022). https://doi.org/10.1038/s41467-022-30614-y      #
 #' -----------------------------------------------------------------------------
-#' The FASTQ files were aligned using bwa mem. The BAM files were than cut to
+#' The FASTQ files were aligned using bwa mem.  The BAM files were then cut to
 #' the nearbait area using bedtools intersect and reduced using
-#' samtools view -b -s 0.1 [input.bam] > [output.bam]
-#' The files were than processed using fourSynergy_pip
+#' samtools view -b -s 0.1 [input.bam] > [output.bam].
+#' The files were then processed using fourSynergy_pip
 #' (https://github.com/sophiewind/fourSynergy_pip).
-
 
 # Datasets/Demo ----------------------------------------------------------------
 ## info.yaml -------------------------------------------------------------------
@@ -40,4 +41,4 @@
 
 ##  all files in results/Demo/alignment and results/Demo/sia -------------------
 #' The data was created based on the reduced bam files of GSE197013 using
-#' fourSynergy_pip (See line 15 et seqq.).
+#' fourSynergy_pip (See line 15 et seq.).
