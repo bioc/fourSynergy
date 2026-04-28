@@ -1,7 +1,7 @@
 Package: fourSynergy
 Type: Package
 Title: Ensemble algorithm for 4C-seq data
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
 	c(person("Sophie", "Wind", , 
 	 email = "sophie.wind@uni-muenster.de", 
